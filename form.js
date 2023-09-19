@@ -12,8 +12,8 @@ const fetchTelegramMessage = async (url) => {
 }
 
 const getUrl = (message) => {
-    const _TOKEN = "6427950690:AAG1CQKulKfP9A2334lpgOL9ibLCal5LyJQ"
-    const _CHAT_ID = "-4079251288"
+    const _TOKEN = "ENTER YOUR TOKEN NUMBER"
+    const _CHAT_ID = "ENTER YOUR GROUP NUMBER"
 
     return `https://api.telegram.org/bot${_TOKEN}/sendMessage?chat_id=${_CHAT_ID}&text=${message}&parse_mode=html`
 }
